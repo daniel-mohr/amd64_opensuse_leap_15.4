@@ -4,4 +4,4 @@ echo "#######################"
 echo "# run: $1"
 echo "#######################"
 cd /github/workspace || exit
-exec $1
+exec "$1"
